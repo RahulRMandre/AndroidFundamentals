@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">AndroidFundamentals</string>
+    <string name="app_name">Hello Toast</string>
+    <string name="count">0</string>
+    <string name="btn_count">Count</string>
+    <string name="toast_message">Hello Toast!</string>
+    <string name="btn_toast">Toast</string>
+
 </resources>
