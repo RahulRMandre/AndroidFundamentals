@@ -1,6 +1,6 @@
 package com.example.androidfundamentals
 
-import android.R
+
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.d(TAG,"HelloWorld")
 
-        mShowCount = (TextView) findViewById(R.id.show_count)
+        mShowCount =  findViewById(R.id.show_count)
 
     }
 
@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
     }
     fun countUp(view: View) {
-        count++;
-        mShowCount.setText(count)
+        count++
+        mShowCount.text=count.toString()
     }
 }
