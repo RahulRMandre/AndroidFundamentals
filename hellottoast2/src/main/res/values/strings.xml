@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HellotToast2</string>
+    <string name="btn_toast">toast</string>
+    <string name="btn_count">count</string>
+    <string name="count">0</string>
+    <string name="toast_message">toast message</string>
+</resources>
