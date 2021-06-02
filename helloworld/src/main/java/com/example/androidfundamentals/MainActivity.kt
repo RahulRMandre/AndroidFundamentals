@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
         toast.show()
 
     }
+
     fun countUp(view: View) {
         count++
         mShowCount.text=count.toString()
