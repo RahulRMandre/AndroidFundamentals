@@ -2,3 +2,4 @@ rootProject.name = "AndroidFundamentals"
 include ':helloworld'
 include ':hellotoast'
 include ':hellottoast2'
+include ':scrollingtext'
